@@ -17,6 +17,9 @@ module.exports = {
     ],
     resolve: {
         extensions: [' ', '.js', '.json', '.jsx', '.less'],
+        alias:{
+            'appRooot': path.join(__dirname,'js')
+        },
         modules: [
             __dirname, './node_modules'
         ]
